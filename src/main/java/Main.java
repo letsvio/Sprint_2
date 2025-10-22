@@ -16,7 +16,7 @@ public class Main {
 
 
         //Создаю объект greenApple
-        Apple greenApple = new Apple(10, 50 , Colour.COLOUR_GREEN);
+          Apple greenApple = new Apple(8, 60 , Colour.COLOUR_GREEN);
 
 
         //Создаю массив объектов food
@@ -29,19 +29,19 @@ public class Main {
         double totalPriceWithoutDiscount = shoppingCart.getTotalPriceWithoutDiscount();
 
         //Печатаю общую стоимость товаров без скидки
-        System.out.println(totalPriceWithoutDiscount);
+        System.out.println("Общая стоимость товаров без скидки: " + totalPriceWithoutDiscount + " рублей");
 
         //Записываю в переменную общую стоимость вегетарианских товаров без скидки
-        double totalPriceForVegetarianFood = shoppingCart.getTotalPriceForVegetarianFood();
+          double totalPriceForVegetarianFood = shoppingCart.getTotalPriceForVegetarianFood();
 
         //Печатаю общую стоимость вегетарианских товаров без скидки
-        System.out.println(totalPriceForVegetarianFood);
+        System.out.println("Общая стоимость вегетарианских товаров без скидки: " + totalPriceForVegetarianFood+ " рублей");
 
         //Записываю в переменную общую стоимость товаров со скидкой
         double totalPriceWithDiscount = shoppingCart.getPriceWithDiscount();
 
         //Печатаю общую стоимость товаров без скидки
-        System.out.println(totalPriceWithDiscount);
+        System.out.println("Общая стоимость товаров со скидкой: " + totalPriceWithDiscount + " рублей");
 
     }
 }

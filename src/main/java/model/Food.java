@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Food {
+public abstract class Food  {
 
     // количество продукта в килограммах (целое число)
     protected int amount;
@@ -33,7 +33,8 @@ public abstract class Food {
         return isVegetarian;
     }
 
+
     //не понимаю как без этого геттера узнать цвет яблока
-    public abstract String getColour();
+//    public abstract String getColour();
 
 }

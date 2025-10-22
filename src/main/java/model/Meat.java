@@ -12,7 +12,7 @@ public class Meat extends Food implements Discountable{
         return 0;
     }
 
-    public String getColour(){
-        return "";
-    }
+//    public String getColour(){
+//        return "";
+//    }
 }
